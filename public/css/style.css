@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'century gothic';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    border-bottom: 1px solid #c0bebe;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .navigation .menu {
+    display: flex;
+    list-style: none;
+}
+
+.header .navigation li {
+    padding: 0 15px;
+}
